@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <title>list</title>
+      {% load static %}
+      <link rel="stylesheet" href="{% static 'newApp/style.css'%}">
+    </head>
+
+    <body>
+       <h1>PEOPLE LIST:</h1>
+       <ul>
+          {%for task in tasks%}
+          <li>{{APP1}}</li>
+          {% endfor %}
+       </ul>
+      <a href = "APP1/add/">add people</a>
+    </body>
+</html>
